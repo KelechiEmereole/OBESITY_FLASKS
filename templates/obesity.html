@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weight Category Prediction</title>
+    </head>
+    <body>
+        <h1>
+            Weight Prediction
+        </h1>
+        <form action="/predict" method="post">
+            <label for="age">Age:</label><br>
+            <input type="text" id="age" name="age" required><br>
+            <label for="gender">Gender:</label><br>
+            <input type="text" id="gender" name="gender" required><br>
+            <label for="height">Height (cm):</label><br>
+            <input type="text" id="height" name="height" required><br>
+            <label for="weight">Weight (kg):</label><br>
+            <input type="text" id="weight" name="weight" required><br>
+            <label for="bmi">Bmi:</label><br>
+            <input type="text" id="bmi" name="bmi" required><br><br>
+            <input type="submit" value="Predict">
+        </form>
+
+    </body>
+</html>
